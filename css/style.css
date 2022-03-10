@@ -4,6 +4,7 @@
 
 body {
   font-family: "Mulish", sans-serif;
+  color: #333333;
 }
 
 .container {
@@ -360,4 +361,54 @@ template {
   justify-content: space-between;
   padding-top: 40px;
   padding-bottom: 40px;
+}
+.header__search {
+  margin-left: 108px;
+}
+
+.search {
+  display: flex;
+  position: relative;
+  overflow: hidden;
+  border-radius: 6px;
+  height: 40px;
+}
+.search__input {
+  width: 350px;
+  height: 100%;
+  padding-left: 23px;
+  padding-right: 70px;
+  background-color: #F5FAFE;
+  border: none;
+  font-size: 12px;
+  line-height: 15px;
+  color: #333333;
+}
+.search__button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 65px;
+  height: 100%;
+  border: none;
+  background-color: #EC1F46;
+}
+
+.user {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+.user__avatar {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.user__user-name {
+  font-size: 14px;
+  line-height: 18px;
+  color: #333333;
+  margin-left: 18px;
 }/*# sourceMappingURL=style.css.map */
