@@ -365,6 +365,11 @@ template {
 .navbar__search {
   margin-left: 108px;
 }
+.navbar-menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
 
 .search {
   display: flex;
@@ -399,14 +404,14 @@ template {
   align-items: center;
   text-decoration: none;
 }
-.user__avatar {
+.user-avatar {
   height: 40px;
   width: 40px;
   border-radius: 50%;
   -o-object-fit: cover;
      object-fit: cover;
 }
-.user__user-name {
+.user__name {
   font-size: 14px;
   line-height: 18px;
   color: #333333;
