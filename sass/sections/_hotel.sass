@@ -20,7 +20,7 @@
     line-height: 30px
   &-wrapper
     display: flex
-    align-items: center
+    align-items: flex-start
     flex-wrap: wrap
   &__offer
     margin-top: 4px
@@ -28,6 +28,13 @@
   &-description
     font-size: 12px
     line-height: 15px
+  &-grid
+    display: flex
+    justify-content: space-between
+  &-container
+    display: flex
+    flex-direction: column
+    justify-content: space-between
 .stars
   flex-basis: 100%
 .offer
@@ -39,10 +46,10 @@
   color: $white
 .rating
   max-width: 65px
-  min-height: 45px
+  max-height: 45px
   background-color: $primary
+  padding-bottom: 6px
   border-radius: 4px
-  padding: 6px 7px
   text-align: center
   &__text
     font-size: 8px
@@ -87,3 +94,80 @@
     &--back
       left: 18px
       background-image: url(../img/back.svg)
+.booking
+  max-width: 350px
+  height: 210px
+  color: $white
+  background-color: $dark
+  border-radius: 8px
+  padding: 27px
+  &-container
+    display: flex
+    justify-content: space-between
+    max-width: 350px
+    margin-bottom: 9px
+  &-price
+    margin-right: 129px
+    max-width: 86px
+    min-height: 59px
+    display: flex
+    flex-wrap: wrap
+    flex-basis: 100%
+    font-family: 'Nunito'
+    &__price-start
+      font-weight: 400
+      font-size: 10px
+      line-height: 14px
+    &__pricetag
+      font-weight: 800
+      font-size: 24px
+      line-height: 33px
+    &__per
+      font-weight: 400
+      font-size: 12px
+      line-height: 16px
+.person-container
+  margin-top: 4px
+  font-family: 'Nunito'
+  font-weight: 400
+  font-size: 12px
+  line-height: 16px
+.person-room
+  display: flex
+  &__user
+    margin-right: 9px
+    margin-bottom: 8px
+  &__home
+    margin-right: 14px
+.call-center
+  display: flex
+  justify-content: space-between
+  align-items: center
+  font-family: 'Nunito'
+  font-weight: 600
+  font-size: 18px
+  line-height: 25px
+  margin-bottom: 17px
+  &__number
+    display: flex
+    justify-content: space-between
+    align-items: center
+    min-width: 76px
+.button
+  background-color: $primary
+  border: none
+  color: $white
+  &-booking
+    width: 100%
+    min-height: 45px
+    border-radius: 4px
+    font-family: 'Nunito'
+    font-weight: 600
+    font-size: 14px
+    line-height: 19px
+
+.map
+  width: 347px
+  height: 213px
+  background-color: $primary
+  border-radius: 4px
